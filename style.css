@@ -43,8 +43,14 @@ body{
  	font-style: bold;
  	border-radius: 25px;
  	font-size: 22px;
+ 	font-family: "Comic Sans", cursive;
  }
  .img {
  	border-style: solid;
  	border-color: green;
+ }
+ .send {
+ 	width:500px ;
+ 	height: 80px;
+ 	border-radius: 25px; 
  }
