@@ -51,6 +51,7 @@ body{
  	border-radius: 25px;
  	font-size: 15px;
  	font-family: "Comic Sans", cursive;
+    text-transform: capitalize;
  }
 /* Как вариант
 form input[type="email"]:focus {
@@ -64,11 +65,7 @@ form label:nth-child(3) input:focus{
     background-color: bisque;
 }
 
-/* Заглвную букву стилизовать не получилось!!!
-form label input[value=""]:first-letter{
-    text-transform: uppercase;
-}
-*/
+
 tr.thead td{
     height: 20px;
     
