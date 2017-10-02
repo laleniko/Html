@@ -63,6 +63,7 @@ form input[type="email"]:focus {
 form label:nth-child(3) input:focus{
     color: green;
     background-color: bisque;
+    font-style: italic;
 }
 
 
