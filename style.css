@@ -1,13 +1,20 @@
 body{
-	background-color: #DCDCDC;
+	background-color: floralwhite;
 
 }
+
+.menu li a:hover {
+    color: burlywood;  
+}
+
 .menu {
 	list-style-type: none;
 	font-family: Times, "Times New Roman", serif ;
 	font-size: 30px;
 	border: 2px groove black;
+    text-align: center;
 }
+
  .head_goods {
  	color: black;
  	font-size: 18px;
@@ -38,19 +45,62 @@ body{
 
  }
  .input{
- 	width: 400px;
- 	height: 80px; 
+ 	width: 500px;
+ 	height: 20px; 
  	font-style: bold;
  	border-radius: 25px;
- 	font-size: 22px;
+ 	font-size: 15px;
  	font-family: "Comic Sans", cursive;
  }
+/* Как вариант
+form input[type="email"]:focus {
+    color: green;
+    background-color: bisque;
+}
+*/
+
+form label:nth-child(3) input:focus{
+    color: green;
+    background-color: bisque;
+}
+
+/* Заглвную букву стилизовать не получилось!!!
+form label input[value=""]:first-letter{
+    text-transform: uppercase;
+}
+*/
+tr.thead td{
+    height: 20px;
+    
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    height: 200px;
+    width: 600px;
+    
+}
+td {
+    border: 1px solid; 
+    text-align: center;
+
+}
+td[rowspan="3"]{
+    transform: rotate(-90deg);
+}
  .img {
- 	border-style: solid;
- 	border-color: green;
+ 	outline: 1px solid green;
  }
+.img:hover{
+    outline: none;
+}
+
+.katalog h1:first-letter, .katalog h3:first-letter {
+    color: darkgoldenrod;
+    font-style: italic;
+}
  .send {
  	width:500px ;
- 	height: 80px;
+ 	height: 50px;
  	border-radius: 25px; 
  }
